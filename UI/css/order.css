@@ -1,0 +1,264 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.bg{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1000;
+   
+}
+.nav{
+    position: absolute;
+    margin-right: -30%;
+    text-align: right;
+    width: 95%;
+    background-color: lightgray;
+    padding: 3%;
+    right: 30%;
+    box-shadow: 5px 10px 20px black;
+}
+.logo0{
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 6%;
+    left: 1%;   
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+    font-size: 20px;
+}
+.active{
+    text-decoration: underline red;
+    font-weight: bold;
+}
+.active:hover{
+    background-color: lightgoldenrodyellow;
+    transition: 0.2s;
+}
+.ab{
+    font-weight: bold;
+}
+.ac{
+    font-weight: bold;
+}
+.new:hover{
+    background-color: lightgoldenrodyellow;
+    transition: 0.2s;
+}
+.ab:hover{
+    background-color: lightgoldenrodyellow;
+    transition: 0.2s;
+}
+.ac:hover{
+    background-color: lightgoldenrodyellow;
+    transition: 0.2s;
+}
+.wel{
+    position: absolute;
+    font-size: 4rem;
+    top: 15%;
+    left: 33%;
+    animation: fadeIn 2s;
+}
+@keyframes fadeIn{
+    0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.ice{
+    position: absolute;
+    top: 30%;
+    left: 41%;
+    color: lightblue;
+    font-size: 50px;
+}
+.hot{
+    position: absolute;
+    top: 130%;
+    left: 41%;
+    color: black;
+    font-size: 50px;
+}
+.tbl{
+    position: absolute;
+    top: 70%;
+    padding: 1px;
+    margin-left: 80px;
+}
+.logo{
+    position: absolute;
+    border-radius: 16px;
+    left: -255px;
+    top: -193px;
+    height: 250px;
+    margin-left: -20px;
+    margin-bottom: 90px;
+    width: 250px;
+}
+.cap{
+    position: absolute;
+    color: lightblue;
+    text-align: center;
+    top: -190px;
+    font-size: 2.5rem;
+    white-space: nowrap;
+}
+.btn0{
+    position: absolute;
+    top: 1300%;
+    white-space: nowrap;
+    right: -175px;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    z-index: 1;
+}
+.btn0:hover{
+    background-color: lightgreen;
+    transform: scale(1.1);
+}
+.sm{
+    position: absolute;
+    color: lightgreen;
+    left: 10px;
+    bottom: -200%;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    font-size: 1.8rem;
+}
+.l{
+    position: absolute;
+    color: lightgreen;
+    left: 250px;
+    bottom: -200%;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    font-size: 1.8rem;
+}
+.quan{
+    position: absolute;
+    color: #F9E4BC;
+    right: -670%;
+    bottom: -900%;
+    font-size: 30px;
+    z-index: 1;
+}
+.select{
+    position: absolute;
+    padding: 50%;
+    right: -190px;
+    bottom: -900%;
+    z-index: 1;
+}
+.box0{
+    position: absolute;
+    border: 200px solid #a26f25;
+    border-radius: 16px;
+    left: 10%;
+    width: 800px;
+    top: 60%;
+}
+.p{
+    position: absolute;
+    color: #F9E4BC;
+    left: 11%;
+    top: -140px;
+}
+.tbl1{
+    position: absolute;
+    top: 70%;
+    padding: 1px;
+    margin-left: 80px;
+}
+.logo1{
+    position: absolute;
+    border-radius: 16px;
+    left: -255px;
+    top: -193px;
+    height: 250px;
+    margin-left: -20px;
+    margin-bottom: 90px;
+    width: 250px;
+}
+.am1{
+    position: absolute;
+    color: lightblue;
+    text-align: center;
+    top: -190px;
+    font-size: 2.5rem;
+    white-space: nowrap;
+}
+.btn1{
+    position: absolute;
+    top: 1300%;
+    white-space: nowrap;
+    right: -175px;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    z-index: 1;
+}
+.btn1:hover{
+    background-color: lightgreen;
+    transform: scale(1.1);
+}
+.sm1{
+    position: absolute;
+    color: lightgreen;
+    left: 10px;
+    bottom: -200%;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    font-size: 1.8rem;
+}
+.l1{
+    position: absolute;
+    color: lightgreen;
+    left: 250px;
+    bottom: -200%;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 1;
+    font-size: 1.8rem;
+}
+.quan1{
+    position: absolute;
+    color: #F9E4BC;
+    right: -670%;
+    bottom: -900%;
+    font-size: 30px;
+    z-index: 1;
+}
+.select1{
+    position: absolute;
+    padding: 50%;
+    right: -190px;
+    bottom: -900%;
+    z-index: 1;
+}
+.box1{
+    position: absolute;
+    border: 200px solid #a26f25;
+    border-radius: 16px;
+    left: 10%;
+    width: 800px;
+    top: 120%;
+}
+.p1{
+    position: absolute;
+    color: #F9E4BC;
+    left: 11%;
+    top: -140px;
+}
