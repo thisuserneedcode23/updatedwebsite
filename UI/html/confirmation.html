@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Submit Confirmation</title>
+</head>
+<body>
+
+  <h1>Order Form</h1>
+
+  <form id="orderForm" action="/website/UI/html/index.html">
+    <!-- Your form fields go here -->
+    <input type="submit" value="Submit Order" onclick="return confirmSubmit()">
+    <input type="button" value="Cancel" onclick="goBack()">
+  </form>
+
+  <script>
+    function confirmSubmit() {
+      var confirmation = confirm("Are you sure you want to submit this order?");
+      if (confirmation) {
+        // If user clicks "OK" in the confirmation dialog, proceed to index.html
+        document.getElementById("orderForm").submit();
+        return true;
+      } else {
+        // If user clicks "Cancel" in the confirmation dialog, stay on order.html
+        return false;
+      }
+    }
+
+    function goBack() {
+      // Redirect back to order.html when the "Cancel" button is clicked
+      window.history.back();
+    }
+  </script>
+
+</body>
+</html>
